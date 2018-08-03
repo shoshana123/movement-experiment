@@ -21,9 +21,22 @@
     }
     #buttons{
       z-index: 200;
+      align-items: flex-end;
+      display: flex;
+      flex-direction: column;
+      width: 92%
+
+    }
+    .switch{
+      justify-content: center;
+      align-items: center;
+
     }
     .button-names{
       color: turquoise;
+      /* padding-right: 20px; */
+      /* justify-content: flex-center; */
+      /* align-items: flex-end; */
     }
     #camera-btn{
       color: turquoise;
@@ -51,12 +64,12 @@
     }
 
     input:checked + .slider {
-      background-color: #2196F3;
+      background-color: turquoise;
     }
 
-    input:focus + .slider {
+    /* input:focus + .slider {
       box-shadow: 0 0 1px #2196F3;
-    }
+    } */
 
     input:checked + .slider:before {
       -webkit-transform: translateX(26px);

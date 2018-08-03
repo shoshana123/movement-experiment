@@ -3,7 +3,7 @@
 
 <head>
     <title>Movement</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./public/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -16,11 +16,27 @@
 
     <div id='main' style='display:none'>
       <div id='buttons'>
-        <h2 class='button-names'> Camera</h2>
+        <div class='button'>
+        <h2 class='button-names'>Camera</h2>
           <label class="switch">
               <input id='camera-btn' type="checkbox">
               <span class="slider round"></span>
             </label>
+        </div>
+        <div class='button'>
+                <h2 class='button-names'>Skeleton</h2>
+                  <label class="switch">
+                      <input id='skeleton-btn' type="checkbox">
+                      <span class="slider round"></span>
+                    </label>
+                </div>
+        <div class='button'>
+                <h2 class='button-names'>Outline Points</h2>
+                    <label class="switch">
+                        <input id='points-btn' type="checkbox">
+                        <span class="slider round"></span>
+                     </label>
+        </div>
     </div>
         <video id="video" playsinline style=" -moz-transform: scaleX(-1);
         -o-transform: scaleX(-1);
@@ -39,6 +55,6 @@
             </h3>
         </div>
     </div>
-    <script src="../client/camera.js"></script>
+    <script src="./client/camera.js"></script>
 </body>
 </html>

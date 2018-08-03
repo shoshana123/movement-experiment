@@ -105,6 +105,16 @@ document.getElementById('camera-btn').addEventListener('click', () => {
   else guiState.output.showVideo = true;
 });
 
+document.getElementById('skeleton-btn').addEventListener('click', () => {
+  if (guiState.output.showSkeleton) guiState.output.showSkeleton = false;
+  else guiState.output.showSkeleton = true;
+});
+
+document.getElementById('points-btn').addEventListener('click', () => {
+  if (guiState.output.showPoints) guiState.output.showPoints = false;
+  else guiState.output.showPoints = true;
+});
+
 /**
  * Sets up dat.gui controller on the top-right of the window
  */
