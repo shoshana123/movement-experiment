@@ -20,13 +20,11 @@ import * as posenet from '@tensorflow-models/posenet';
 const Colors = {};
 Colors.names = {
   aqua: "#00ffff",
-  beige: "#f5f5dc",
   blue: "#0000ff",
   cyan: "#00ffff",
   darkblue: "#00008b",
   darkcyan: "#008b8b",
   darkgreen: "#006400",
-  darkkhaki: "#bdb76b",
   darkmagenta: "#8b008b",
   darkolivegreen: "#556b2f",
   darkorange: "#ff8c00",
@@ -52,7 +50,6 @@ Colors.names = {
   purple: "#800080",
   violet: "#800080",
   red: "#ff0000",
-  silver: "#c0c0c0",
   white: "#ffffff",
   yellow: "#ffff00"
 }
