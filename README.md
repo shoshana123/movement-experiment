@@ -1,6 +1,6 @@
 # Movement-Experiment
 
-This project was an experiment with movement, color and coding. As a former ballet dancer, I wanted to explore coding in conjunction with movement and combining these two very different fields.
+This project was an experiment with movement, color and coding. As a former ballet dancer, I wanted to explore coding in conjunction with movement and try to combine these two very different fields.
 
 This project leverages real-time human pose estimation through a machine learning model, PoseNet, from TensorFlow.js. The poses are detected in real time from the user's webcam.
 
