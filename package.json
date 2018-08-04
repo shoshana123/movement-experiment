@@ -15,9 +15,8 @@
   },
   "scripts": {
     "watch": "NODE_ENV=development parcel --no-hmr --open index.html ",
-    "build": "NODE_ENV=production parcel build index.html  --no-minify --public-url ./ && open index.html",
-    "deploy": "npm run build && git add . && git commit -a -m 'latest build' && git push origin master"
-
+    "start-dev": "NODE_ENV=development parcel --no-hmr && node /server/server.js",
+    "build-camera": "NODE_ENV=production parcel build index.html  --no-minify --public-url ./ && open index.html"
   },
   "devDependencies": {
     "babel-plugin-transform-runtime": "~6.23.0",

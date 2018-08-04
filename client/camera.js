@@ -19,6 +19,7 @@ import dat from 'dat.gui';
 import Stats from 'stats.js';
 import { drawKeypoints, drawSkeleton } from './demo_util';
 
+
 const videoWidth = 670;
 const videoHeight = 600;
 const stats = new Stats();
