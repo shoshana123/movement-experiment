@@ -18,7 +18,8 @@
     "watch": "NODE_ENV=development parcel --no-hmr --open index.html ",
     "start-dev": "NODE_ENV=development parcel --no-hmr && node /server/server.js",
     "build-camera": "NODE_ENV=production parcel build index.html  --no-minify --public-url ./ && open index.html",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
 
   },
   "devDependencies": {
