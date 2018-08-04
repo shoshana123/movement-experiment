@@ -128,9 +128,9 @@ export function drawKeypoints(keypoints, minConfidence, ctx, scale = 1) {
     drawPoint(ctx, y * scale, x * scale, 3, color);
     for (let i = 11; i < 651; i += 60) {
       ctx.fillRect(i, 1, 50, 10);
-      ctx.fillRect(i, 580, 50, 10);
+      ctx.fillRect(i, 560, 50, 10);
     }
-    for (let j = 27; j < 550; j += 60) {
+    for (let j = 22; j < 550; j += 60) {
       ctx.fillRect(1, j, 10, 50);
       ctx.fillRect(660, j, 10, 50);
     }

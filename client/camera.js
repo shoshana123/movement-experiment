@@ -21,7 +21,7 @@ import { drawKeypoints, drawSkeleton } from './demo_util';
 
 
 const videoWidth = 670;
-const videoHeight = 600;
+const videoHeight =580;
 const stats = new Stats();
 
 function isAndroid() {
