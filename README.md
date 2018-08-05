@@ -1,4 +1,4 @@
-# Movement-Experiment
+# Movement Experiment
 
 This project was an experiment with movement, color and coding. As a former ballet dancer, I wanted to explore coding in conjunction with movement and try to combine these two very different fields.
 
