@@ -3,9 +3,9 @@ const path = require('path');
 const PORT = process.env.PORT || 3002;
 let app = express();
 if (process.env.NODE_ENV !== 'production') {
-    app.use(express.static('dist'));
+    app.use(express.static('/'));
 } else {
-    app.use(express.static('dist'));
+    app.use(express.static('/'));
 }
 
 app.get('/', (req, res)=>{
