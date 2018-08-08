@@ -1,4 +1,4 @@
-.footer {
+/* .footer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -24,7 +24,6 @@ z-index: 200;
 align-items: flex-start;
 display: flex;
 flex-direction: column;
-/* width: 92%; */
 padding-top: 40px;
 padding-left: 40px;
 
@@ -66,9 +65,6 @@ input:checked + .slider {
 background-color: turquoise;
 }
 
-/* input:focus + .slider {
-box-shadow: 0 0 1px #2196F3;
-} */
 
 input:checked + .slider:before {
 -webkit-transform: translateX(26px);
@@ -101,4 +97,4 @@ visibility: hidden
 
 body {
 background-color: black
-}
+} */

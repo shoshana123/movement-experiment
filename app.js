@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3002;
 let app = express();
 if (process.env.NODE_ENV !== 'production') {
     app.use(express.static('dist'));
