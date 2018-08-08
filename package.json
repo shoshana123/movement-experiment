@@ -10,8 +10,9 @@
   "dependencies": {
     "@tensorflow-models/posenet": "0.1.2",
     "@tensorflow/tfjs": "0.11.4",
-    "parcel-bundler": "^1.4.1",
+    "express": "^4.16.3",
     "gh-pages-deploy": "^0.5.0",
+    "parcel-bundler": "^1.4.1",
     "stats.js": "^0.17.0"
   },
   "scripts": {
@@ -20,7 +21,6 @@
     "build-camera": "NODE_ENV=production parcel build index.html  --no-minify --public-url ./ && open index.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-
   },
   "devDependencies": {
     "babel-plugin-transform-runtime": "~6.23.0",
