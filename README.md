@@ -8,7 +8,7 @@ Machine learning pose estimation allows for the possibility to locate key body j
 
 To run this:
   1. Clone the repository to your local machine
-  2. Npm install 
+  2. Npm install </br>
     Note this version of node is 8.9.0
   3. Npm run watch
 
